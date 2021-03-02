@@ -6,15 +6,12 @@ import Grid from '@material-ui/core/Grid';
 import Countup from 'react-countup';
 import CircularProgress from '@material-ui/core/CircularProgress';
 export default function Card({ data: { confirmed, recovered, deaths, lastUpdate } }) {
-
-
     if (!confirmed)
         return (
             <div >
               Loading
             </div>
         )
-
     return (
         <div >
             <Grid container spacing={2} justify='center' className="container">
