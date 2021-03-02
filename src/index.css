@@ -1,13 +1,75 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family: Tahoma;
+  font-weight: lighter;
+  /* background: linear-gradient(
+    90deg
+    ,#fbf5edfb,#bbbab8,#eeebe5f6); */
+}
+.cov{
+  background-color: whitesmoke;
+  font-size: 140%;
+  text-align: center;
+  color:teal
+}
+.names{
+  font-weight: lighter;
+text-transform: uppercase;
+color: blue;
+}
+.values{
+  color: blue;
+  font-size: 25px;
+}
+.container{ 
+  
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media screen and (min-width: 700px) {
+  .whole{
+    /* padding-left: 290px; */
+    background-color: blue;
+  }
 }
+.card{
+  /* width: 70%; */
+  /* height: 80%; */
+  text-align: center;
+  padding: 0%;
+  border-bottom-style:groove;
+  border-left-style:ridge;
+
+  /* margin-left: 10px; */
+  background-color: skyblue;
+}
+.newdiv{
+  text-align: center;
+  /* padding-left: 90px; */
+
+}
+.new-container{
+  justify-content: space-between;
+  margin: 0% 0% 0% 15%;
+width: 65%;
+  /* height: 40px; */
+  /* background-color: blue; */
+
+}
+@media (max-width: 770px){
+  .new-container{
+  margin: 0% 0% 2% 0%;
+
+    width: 100%;
+  }
+}
+
+
+
+/* dropdown css */
+#formControl{
+  width: 40%;
+    margin-left: 28%;
+}
+
